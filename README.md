@@ -1,7 +1,3 @@
-from pathlib import Path
-
-readme = """# Microsoft Teams Administration Lab
-
 Laboratoire pratique consacré à l’administration de **Microsoft Teams** dans un environnement Microsoft 365 de test.
 
 L’objectif de ce projet est de mettre en pratique des tâches proches de celles rencontrées en **support IT / administration Microsoft 365** : gestion des équipes et des canaux, contrôle des fonctionnalités utilisateurs, accès invité, politiques de réunion, gestion des applications et consultation des rapports d’utilisation.
@@ -96,8 +92,3 @@ L’environnement étant un laboratoire avec une activité limitée, le rapport 
 ## Objectif professionnel
 
 Ce laboratoire s’inscrit dans une montée en compétences orientée **Technicien Support IT / Systèmes & Réseaux**, avec une pratique concrète de l’écosystème Microsoft 365 et de l’administration des services collaboratifs.
-"""
-
-path = Path("/mnt/data/README.md")
-path.write_text(readme, encoding="utf-8")
-print(f"README créé : {path}")
